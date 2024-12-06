@@ -1,0 +1,103 @@
+/* Basic resets and layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../assets/Loginbike.jpg);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    width: 93em;
+
+  }
+  
+  .header nav a {
+    color: white;
+    margin: 3em 1rem;
+    font-size: 2em;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  
+  .hero h2 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .hero button {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .section h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 2em; /* Adjust gap size here */
+  padding: 20px;
+  margin-left: 10em;
+  }
+  
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(238, 235, 235, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    
+  }
+  
+  .card h4 {
+    margin: 0.5rem 0;
+  }
+  
+  .card button {
+    background: #6c93f4;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .footer {
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+
+  h3{
+     color: #f8f3f3;
+  }
